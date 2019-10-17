@@ -1,0 +1,83 @@
+:root {
+    margin: 0px;
+    background-color: #8a8584;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.maze button {
+    width: 150px;
+}
+
+header {
+    background-color: #757171;
+    height: 125px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.options {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.option {
+    margin: 0px 50px;
+    background-color: #bd2904;
+    border: none;
+    color: #ffffff;
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    flex-shrink: 1;
+}
+
+.maze {
+    text-align: center;
+}
+
+#maze {
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.generator {
+    text-align: center;
+    margin: 0px 50px;
+    background-color: #bd2904;
+    border: none;
+    color: #ffffff;
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.solveB {
+    text-align: center;
+    margin: 0px 50px;
+    background-color: #32CD32;
+    border: none;
+    color: #ffffff;
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}  
+
+label {
+    font-weight: bold;
+    font-size: 1.5rem
+}
+
+input {
+    height: 1.5rem;
+    width: 50px;
+}

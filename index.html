@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Test site idk</title>
+    <script src="Maze.js" async></script>
+
+    </head>
+
+    <body>
+        <header>
+            <h1 class="title">Maze generator</h1>
+        </header>
+        <div class="options">
+            <button id="option" type="button" class="option" value="RD">Recursive Divison</button>
+            <button id="option2" type="button" class="option" value="prim">Prim's algorithm maze</button>
+            <button id="option3" type="button" class="option" value="DFS">DFS Maze</button>
+        </div>
+        <div class="maze">
+            <canvas id="maze"></canvas>
+            <label for="size">Size </label>
+            <input id="size" type="text" value="50">
+            <button id="generator" class="generator" type="button">Generate</button>
+            <button id="solve" class="solveB" type="button">Solve</button>
+        </div>
+    </body>
+</html>
